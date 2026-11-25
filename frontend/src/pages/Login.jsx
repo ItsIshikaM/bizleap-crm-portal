@@ -82,7 +82,7 @@ export default function Login({ setToken }) {
               <input
                 type="text"
                 required
-                placeholder="Ishika Mehere"
+                placeholder="Jane Doe"
                 className="w-full px-4 py-2.5 bg-slate-50 border border-slate-200 rounded-xl text-sm text-slate-900 focus:outline-none focus:bg-white focus:border-[#1908A6] transition"
                 value={name}
                 onChange={(e) => setName(e.target.value)}
